@@ -1,6 +1,13 @@
 - const CNAME = "webmatesclub.ezequielschwartzman.org"
 - const printMode = false
 
+mixin EmojiFavicon(emoji)
+  link(
+    rel="icon"
+    type="image/svg+xml"
+    href=`data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">${emoji}</text></svg>`
+  )
+  
 mixin Page(name)
     html
       head
@@ -9,6 +16,8 @@ mixin Page(name)
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        +EmojiFavicon("💻")
+        title Web & Mates Club
         style.
           .bagel-fat-one {
             font-family: "Bagel Fat One", system-ui;
@@ -107,7 +116,7 @@ mixin RainbowText(text)
           div[flex-cc flex-col relative p4 -top-1 b b-sky-700 bg-sky-100 rounded-b-2]
             div[mb3 font-bold font-mono text-black/77] Próximos encuentros
             img[w-full mix-blend-multiply opacity-77 [image-rendering:pixelated]](src="images/qr/md.webp")
-            div[font-mono break-all text-2.1 mt2] https://re.ezequielschwartzman.org/#web-mates-club
+            div[mt2 break-all font-mono text-2.1] https://re.ezequielschwartzman.org/#web-mates-club
     if !printMode
       #super[relative px4 w-320px md:px0 md:py4]
         div[
