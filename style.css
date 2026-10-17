@@ -119,6 +119,7 @@
 .b-1{border-width:1px;}
 .b-4{border-width:4px;}
 .b-amber-300{border-color:color-mix(in srgb, var(--colors-amber-300) var(--un-border-opacity), transparent);}
+.b-black\/10{border-color:color-mix(in srgb, var(--colors-black) 10%, transparent);}
 .b-black\/30{border-color:color-mix(in srgb, var(--colors-black) 30%, transparent);}
 .b-blue-300{border-color:color-mix(in srgb, var(--colors-blue-300) var(--un-border-opacity), transparent);}
 .b-cyan-300{border-color:color-mix(in srgb, var(--colors-cyan-300) var(--un-border-opacity), transparent);}
@@ -234,6 +235,7 @@
 .text-white{color:color-mix(in oklab, var(--colors-white) var(--un-text-opacity), transparent);}
 .text-yellow-500{color:color-mix(in oklab, var(--colors-yellow-500) var(--un-text-opacity), transparent);}
 .b-amber-300{border-color:color-mix(in oklab, var(--colors-amber-300) var(--un-border-opacity), transparent);}
+.b-black\/10{border-color:color-mix(in oklab, var(--colors-black) 10%, transparent);}
 .b-black\/30{border-color:color-mix(in oklab, var(--colors-black) 30%, transparent);}
 .b-blue-300{border-color:color-mix(in oklab, var(--colors-blue-300) var(--un-border-opacity), transparent);}
 .b-cyan-300{border-color:color-mix(in oklab, var(--colors-cyan-300) var(--un-border-opacity), transparent);}
