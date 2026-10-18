@@ -81,6 +81,7 @@
 .text-violet-500{color:color-mix(in srgb, var(--colors-violet-500) var(--un-text-opacity), transparent);}
 .text-white{color:color-mix(in srgb, var(--colors-white) var(--un-text-opacity), transparent);}
 .text-yellow-500{color:color-mix(in srgb, var(--colors-yellow-500) var(--un-text-opacity), transparent);}
+.hover\:text-blue-300:hover{color:color-mix(in srgb, var(--colors-blue-300) var(--un-text-opacity), transparent);}
 .lh-6{--un-leading:calc(var(--spacing) * 6);line-height:calc(var(--spacing) * 6);}
 .tracking-1px{--un-tracking:1px;letter-spacing:1px;}
 .tracking-wider{--un-tracking:var(--tracking-wider);letter-spacing:var(--tracking-wider);}
@@ -234,6 +235,7 @@
 .text-violet-500{color:color-mix(in oklab, var(--colors-violet-500) var(--un-text-opacity), transparent);}
 .text-white{color:color-mix(in oklab, var(--colors-white) var(--un-text-opacity), transparent);}
 .text-yellow-500{color:color-mix(in oklab, var(--colors-yellow-500) var(--un-text-opacity), transparent);}
+.hover\:text-blue-300:hover{color:color-mix(in oklab, var(--colors-blue-300) var(--un-text-opacity), transparent);}
 .b-amber-300{border-color:color-mix(in oklab, var(--colors-amber-300) var(--un-border-opacity), transparent);}
 .b-black\/10{border-color:color-mix(in oklab, var(--colors-black) 10%, transparent);}
 .b-black\/30{border-color:color-mix(in oklab, var(--colors-black) 30%, transparent);}
