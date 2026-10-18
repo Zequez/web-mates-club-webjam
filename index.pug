@@ -107,8 +107,9 @@ mixin RainbowText(text)
           div No necesitás saber programar.
           div Traé tu curiosidad, tus ideas o esa web que siempre quisiste hacer.
         div[flex relative px-1 font-bold text-3.5 bg-black/40 rounded-1]
-          div[grow text-left] Consultas <a href="https://wa.me/5492235235568" target="_blank" class="underline">2235235568</strong>
-          div[text-right] –Ezequiel
+          div[grow text-left] Consultas <a href="https://wa.me/5492235235568" target="_blank" class="underline hover:text-blue-300">2235235568</strong>
+          | –
+          a[text-right underline hover:text-blue-300](href="https://ezequielschwartzman.org") Ezequiel
      
       #inner-shadow[absolute inset-0 z-30 pointer-events-none shadow-[inset_0_0_40px_20px_#fff1]]
     if printMode
